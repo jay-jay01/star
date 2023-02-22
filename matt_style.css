@@ -1,0 +1,1310 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*home page ends*/
+
+/*header start*/
+.header {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #0d0018;
+    position: sticky;
+    z-index: 999;
+}
+
+
+
+.logo {
+    width: auto;
+    height: 55px;
+    border-radius: 50%;
+    margin-left: 15px;
+}
+
+.icons ul li {
+    list-style: none;
+    float: left;
+    padding: 20px;
+}
+
+.icons ul li a {
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.icons ul li a img {
+    display: flex;
+    width: auto;
+    height: 30px;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+.icons ul li a img:hover {
+    height: 34px;
+    border: 2px solid #ff7200;
+}
+
+#nav ul li {
+    padding: 10px;
+    list-style: none;
+    float: left;
+    margin-left: 20px;
+    right: 10px;
+}
+
+#nav ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    transition: 0.5s;
+}
+
+#nav ul li a:hover, 
+#nav ul li a.active {
+    font-size: 20px;
+    color: #015c92;
+}
+
+.dj_photo img{
+    width: 70px;
+    height: 60px;
+    margin-right: 13.5px;
+    margin-top: 6.5px;
+    border-radius: 100%;
+}
+
+/*header stops*/
+
+/*welcome box start*/
+.header_txt {
+    margin: 25px;
+    margin-left: 35px;
+    height: 70vh;
+    width: 205vh;
+    border: none;
+    border-radius: 30px;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(12, 3,51,0.3),rgba(12, 3,51,0.3)), url('image/background/bkg\ 02.JPG');
+
+    /* this is how to put a liner-gradient together with an image
+    background-image: linear-gradient(rgba(12, 3,51,0.3),rgba(12, 3,51,0.3)), url('image/background/dj-matt01.JPG');
+    */
+}
+
+.header_txt img {
+    width: 800px;
+    height: 430px;
+    float: right;
+    border-radius: 150px;
+    margin: 3.5px;
+    z-index: -1;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.header_txt .text {
+    color: #ff8000;
+    padding: 20px;
+    margin-left: 70px;   
+}
+
+.header_txt .text h3 {
+    margin-top: 150px;
+    margin-bottom: 0px;
+    margin-left: 50px;
+    font-size: 45px;
+}
+
+.header_txt .text h5 {
+    margin-top: 10px;
+    font-size: 35px;
+    margin-left: 70px;
+}
+
+.header_txt .text h2 {
+    margin-top: 6px;
+    font-size: 35px;
+    margin-left: 30px;
+}
+
+.header_txt .text h4 {
+    margin-top: 6px;
+    font-size: 17px;
+    margin-left: 0px;
+    letter-spacing: 2px;
+}
+
+/*close tag for mobile just to put in a location here */
+
+.closebtn {
+    cursor: pointer;
+    color: #fff;
+    margin-top: 0px;
+    font-size: 45px;
+    font-weight: 700;
+    margin-left: 80px;
+    margin-bottom: 30px;
+    text-decoration: none;
+}
+
+/*welcome box ends*/
+
+/*start slider*/
+.slider {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.slider .slide img {
+    align-items: center;
+    width: 175px;
+    height: 190px;
+    border-radius: 22px;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/*stop slider*/
+
+/*contents/card start*/
+.content_header {
+    width: auto;
+    height: 50px;
+    text-align: center;
+    margin: 30px;
+    background-color: #0d0018;
+    color: #fff;
+    padding: 15px;
+    border-radius: 20px;
+    letter-spacing: 3px;
+}
+
+.content .all_cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.card {
+    border-radius: 55px;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 38vh;
+    height: 48vh;
+    text-align: center;
+    transition: 0.5s;
+}
+
+/*
+.card:hover {
+    width: 42vh;
+    height: 50vh;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.6);
+}
+
+*/
+.card img {
+    margin-top: 10px;
+    width: 90%;
+    height: 27vh;
+    border-radius: 25px;
+}
+
+.card_text audio {
+    width: 38vh;
+}
+
+.card_text a {
+    text-decoration: none;
+    margin: 2px;
+    width: 35px;
+    height: 15px;
+    color: #fff;
+    background-color: #0d0018;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 100;
+    transition: 00.5s;
+}
+
+.card_text a:hover {
+    color: #000;
+    font-weight: 550;
+}
+
+/*contents/card ends*/
+
+/*events start*/
+.all_events {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.events_bdy {
+    border: none;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 65vh;
+    height: 70vh;
+    text-align: center;
+    display: block;
+    transition: 0.5s;
+}
+
+.events_bdy:hover {
+    width: 75vh;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.6);
+}
+
+.events_bdy img {
+    width: 100%;
+    height: 50vh;
+}
+
+/*events ends*/
+
+/*footer start*/
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: #0d0018;
+}
+
+.footer_contact {
+    margin: 15px 15px 15px 15px ;
+}
+
+.footer_contact img {
+    width: 30vh;
+    height: 30vh;
+    border-radius: 50%;
+}
+
+#footer_contact_text {
+    width: 50vh;
+    color: #fff;
+}
+
+.fotter_nav {
+    display: block;
+    padding: 10px;
+    margin: 20px 20px 0px 20px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.footer_address, .footer_social a, .fotter_nav a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer_social ul li, .fotter_nav ul li{
+    list-style: none;
+}
+
+.footer_social img {
+    width: auto;
+    height: 50px;
+    border-radius: 50%;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.fotter_nav ul li a {
+    font-size: 17px;
+    font-weight: 700;
+    margin: 5px;
+    letter-spacing: 2px;
+}
+
+/*footer ends*/
+
+/*home page ends*/
+
+/*about_dj page start*/
+
+.about {
+    text-align: center;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.dj_pic {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border: none;
+    width: 75vh;
+    height: 45vh;
+    margin-left: 70vh;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.6);
+}
+
+.dj_pic img {
+    width: 75vh;
+    height: 45vh;
+    border-radius: 50%;
+}
+
+.card #dj_img {
+    height: 48vh;
+    border-radius: 35px;
+}
+
+.header_txt_about {
+    display: flex;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    margin-left: 35px;
+    height: 70vh;
+    width: 205vh;
+    border: none;
+    border-radius: 30px;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    justify-content: space-around;
+    background-image:  linear-gradient(rgba(16, 7, 254, 0.3),rgba(13, 4, 255, 0.3));
+    border: 1px solid #000;
+}
+
+.header_contact_card img {
+    width: auto;
+    height: 50vh;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.contact_address {
+    margin-top: 170px;
+}
+
+.contact_social {
+    margin-top: 90px;
+    padding: 5px;
+}
+
+.contact_social ul li {
+    list-style: none;
+}
+
+.contact_social img {
+    width: auto;
+    height: 50px;
+    border-radius: 50%;
+    padding: 5px;
+    margin-right: 10px;
+    border: 1px solid grey;
+    transition: 0.5s
+}
+
+.contact_social img:hover {
+    height: 55px;
+}
+/*about_dj page stop*/
+
+
+/*dj-mix page start*/
+.header_txt_mix {
+    margin: 25px;
+    margin-left: 35px;
+    height: 70vh;
+    width: 205vh;
+    border: none;
+    border-radius: 30px;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-image: url('image/background/dj\ mix.PNG');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    /* this is how to put a liner-gradient together with an image
+    background-image: linear-gradient(rgba(12, 3,51,0.3),rgba(12, 3,51,0.3)), url('image/background/dj-matt01.JPG');
+    */
+}
+/*dj-mix page stop*/
+
+
+/* start dj gallarey page */
+.Mysliders img {
+    margin: 20px;
+    width: 200vh;
+    height: 70vh;
+    border-radius: 20px;
+    box-shadow:   0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.all-image-card {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    height: 30vh;
+}
+
+.img-card img {
+    width: 310px;
+    height: 35vh;
+    transition: 0.5s;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+}
+
+.img-card img:hover {
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.Djimages {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    
+}
+
+.dj-photos img {
+    transition: 0.5s;
+    width: 250px;
+    height: 45vh;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.dj-photos img:hover {
+    width: 260px;
+    border-radius: 25px;
+
+}
+/* stop dj gallarey page */
+
+/*this is the symbol for moblie nav display*/
+span,
+.closebtn {
+    display: none;
+}
+
+/*media query for mobile (phone - portrait) */
+@media only screen and (max-width: 320px) {
+    .fotter_nav ul{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0px;
+        margin-bottom: 0px;
+    }
+
+}
+
+/*media query for mobile (phone - landscape + portrait) */
+@media only screen and (max-width: 480px) {
+    .fotter_nav ul{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0px;
+        margin-bottom: 0px;
+    }
+
+    .img-card img {
+    width: 180px;
+    }     
+    
+}
+
+/*media query for mobile (small tablet - portrait) */
+@media only screen and (max-width: 600px) {
+    
+    span,
+    .closebtn {
+    display: block;
+    }
+
+    .dj_pic,
+    .dj_pic img {
+        width: 40vh;
+        height: 30vh;
+        margin-left: 0px;
+        margin-bottom: 15px;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .card #dj_img{
+        height: 45vh;
+    }
+
+    .header_txt_about {
+        width: 95%;
+        margin: 0px;
+        height: 65vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    .header_contact_card img {
+        width: 40vh;
+        height: 30vh;
+    }
+    .contact_social,
+    .contact_address,
+    .contact_social img  {
+        margin: 0px;
+    }
+    .contact_social ul {
+        display: flex;
+        margin: 6px;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .about {
+        width: 80%;
+    }
+
+    .all-image-card {
+        display: none;
+    }
+    .image-cards {
+        display: none;
+    }
+    .img-card {
+        display: none;
+    }
+
+    .Djimages {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 10px;
+        padding: 0px;
+    }
+
+    .dj-photos {
+        margin: 10px;
+    }
+
+    .Mysliders img {
+        width: 95%;
+        height: 38vh;
+    }
+
+    .header_txt_mix {
+        width: 95%;
+        margin: 10px;
+        height: 50vh;
+    }
+
+    .header_txt {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        width: 95%;
+        height: 77vh;
+        background-image: linear-gradient(rgba(12, 3,51,0.3),rgba(12, 3,51,0.3)), url('image/background/dj\ 01.JPG');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        
+    }
+
+    .header_txt img {
+        display: none;
+    }
+
+    .header_txt .text {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+
+    .header_txt .text h3 {
+        margin: 0px;
+    }
+
+    .icons ul li,
+    .dj_photo img {
+        display: none;
+    }
+
+    .slider {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin: 20px;
+        align-items: center;
+    }
+
+    .slider .slide img {
+        width: 150px;
+        margin: 10px;
+    }
+
+    .content_header {
+        padding: 3px;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .content .all_cards {
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .card {
+        margin-bottom: 2px;
+    }
+
+    .content .all_cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .all_events {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .events_bdy {
+        margin-bottom: 20px;
+        width: 40vh;
+    }
+
+    .events_bdy:hover {
+        width: 43vh;
+        border-radius: 10px;
+    }
+
+    .footer {
+        width: 100%;
+       display: block;
+       align-items: center;
+       justify-content: space-between;
+    }
+
+    .footer_social ul {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer_contact img {
+        margin-top: 20px;
+        margin-bottom: 15px;
+        width: 20vh;
+        height: 20vh;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .fotter_nav ul{
+        display: flex;
+        padding: 1px;
+    }
+
+    .footer_address {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        margin-bottom: 15px;
+    }
+
+    #footer_contact_text {
+        justify-content: center;
+        width: 100%;
+        text-align: center;
+        align-items: center;
+
+    }
+}
+
+/*media query for mobile (large tablet - portrait) */ 
+@media only screen and (max-width: 768px) {
+
+    .header_txt {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        width: 95%;
+        height: 77vh;
+        background-image: linear-gradient(rgba(12, 3,51,0.3),rgba(12, 3,51,0.3)), url('image/background/dj\ 01.JPG');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        
+    }
+
+    .header_txt img {
+        display: none;
+    }
+
+    .header_txt .text {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+
+    .header_txt .text h3 {
+        margin: 0px;
+    }
+
+    span,
+    .closebtn {
+    display: block;
+    }
+
+    .all-image-card {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 30px;
+        padding: 0px;
+        overflow: hidden;
+    }
+    .image-cards {
+        margin-bottom: 20px;
+    }
+    .img-card img {
+        width: 280px;
+    }
+
+    .Djimages {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 10px;
+        padding: 0px;
+    }
+
+    .dj-photos {
+        margin: 10px;
+    }
+
+    #nav ul {
+        display: block;
+    }
+
+    .header_txt_mix {
+        width: 95%;
+        margin: 10px;
+        height: 50vh;
+    }
+
+
+
+    .header_txt,
+    .Mysliders img,
+    .header_txt_mix {
+        width: auto;
+    }
+
+    .header_txt_about {
+        width: auto;
+    }
+
+    .dj_pic,
+    .dj_pic img {
+        width: 45vh;
+        height: 35vh;
+        margin-left: 2px;
+        margin-bottom: 15px;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .slider {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .slider .slide img {
+        margin-bottom: 10px;
+    }
+
+    .content .all_cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .card {
+        margin-bottom: 15px;
+    }
+
+    .all_events {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .events_bdy {
+        margin-bottom: 35px;
+    }
+    
+    .fotter_nav ul li {
+        margin-bottom: 20px;
+    }
+
+}
+
+/*media query for mobile (phone + small tablet - landscape) */
+@media only screen and (max-width: 800px) {
+
+    .all-image-card {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 30px;
+        padding: 0px;
+        overflow: hidden;
+    }
+    .image-cards {
+        margin-bottom: 20px;
+    }
+    .img-card img {
+        width: 280px;
+    }
+
+    .Djimages {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 10px;
+        padding: 0px;
+    }
+
+    .dj-photos {
+        margin: 10px;
+    }
+    #nav  {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 0;
+        right: -300px;
+        height: 100vh;
+        width: 200px;
+        background-color: #666;
+        box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+        padding: 80px 0 0 10px;
+        transition: 0.5s ease;
+        border-radius: 25px 0 0 25px;
+        margin-right: 0px;
+    }
+
+    #nav ul li a {
+        margin-top: 0px;
+        margin-bottom: 35px;
+    }
+
+    .header_txt {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        width: 95%;
+        height: 77vh;
+        background-image: linear-gradient(rgba(12, 3,51,0.3),rgba(12, 3,51,0.3)), url('image/background/dj\ 01.JPG');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        
+    }
+
+    .header_txt img {
+        display: none;
+    }
+
+    .header_txt .text {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+
+    .header_txt .text h3 {
+        margin: 0px;
+    }
+
+    .header_txt,
+    .Mysliders img,
+    .header_txt_about,
+    .header_txt_mix {
+        width: auto;
+    }
+
+    .card #dj_img{
+        height: 45vh;
+    }
+
+    .dj_pic,
+    .dj_pic img {
+        width: 40vh;
+        height: 30vh;
+        margin-left: 2px;
+        margin-bottom: 15px;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .slider {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .slider .slide img {
+        margin-bottom: 10px;
+    }
+
+    .content .all_cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .card {
+        width: 40vh;
+        margin-bottom: 15px;
+    }
+
+    .all_events {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .events_bdy {
+        margin-bottom: 35px;
+    }
+    
+    .fotter_nav ul li {
+        margin-bottom: 20px;
+    }
+
+}
+
+/*media query for mobile (large tablet - landscape) */
+@media only screen and (max-width: 1024px) {
+    .all-image-card {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 30px;
+        padding: 0px;
+        overflow: hidden;
+    }
+    .image-cards {
+        margin-bottom: 20px;
+    }
+    .img-card img {
+        width: 180px;
+    }
+
+    .Djimages {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 10px;
+        padding: 0px;
+    }
+
+    .dj-photos {
+        margin: 10px;
+    }
+
+    .header_txt {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        width: 95%;
+        height: 77vh;
+        background-image: linear-gradient(rgba(12, 3,51,0.3),rgba(12, 3,51,0.3)), url('image/background/dj\ 01.JPG');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        
+    }
+
+    .header_txt img {
+        display: none;
+    }
+
+    .header_txt .text {
+        display: flex;
+        flex-wrap: wrap;
+        width: 75%;
+        color: #0d0018;
+        margin-left: 0px;
+        margin-top: 100px;
+    }
+
+
+
+    .header_txt,
+    .Mysliders img,
+    .header_txt_about,
+    .header_txt_mix {
+        width: auto;
+    }
+
+    .card #dj_img{
+        height: 45vh;
+    }
+
+    .dj_pic,
+    .dj_pic img {
+        width: 40vh;
+        height: 30vh;
+        margin-left: 2px;
+        margin-bottom: 15px;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .slider {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .slider .slide img {
+        margin-bottom: 10px;
+    }
+
+    .content .all_cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .card {
+        width: 40vh;
+        margin-bottom: 15px;
+    }
+
+    .all_events {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .events_bdy {
+        margin-bottom: 35px;
+    }
+    
+    .fotter_nav ul li {
+        margin-bottom: 20px;
+    }
+
+}
+
+/*media query for mobile (desktop) */
+@media only screen and (max-width: 1280px) {
+    .all-image-card {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 30px;
+        padding: 0px;
+        overflow: hidden;
+    }
+    .image-cards {
+        margin-bottom: 20px;
+    }
+    .img-card img {
+        width: 280px;
+    }
+
+    .Djimages {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 10px;
+        padding: 0px;
+    }
+
+    .dj-photos {
+        margin: 10px;
+    }
+
+    .header_txt,
+    .Mysliders img,
+    .header_txt_about,
+    .header_txt_mix {
+        width: auto;
+        margin-left: 0;
+    }
+
+    .card #dj_img{
+        height: 45vh;
+    }
+
+    .slider {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .slider .slide img {
+        margin: 5px;
+    }
+
+    .content .all_cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .card {
+        width: 40vh;
+        margin-bottom: 15px;
+    }
+
+    .all_events {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .events_bdy {
+        margin-bottom: 35px;
+    }
+    
+    .fotter_nav ul li {
+        margin: 20px;
+    }
+
+}
+
+/*media query for mobile (wider screen desktop) */
+@media only screen and (max-width: 1440px) {
+    .all-image-card {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 30px;
+        padding: 0px;
+        overflow: hidden;
+    }
+    .image-cards {
+        margin-bottom: 20px;
+    }
+    .img-card img {
+        width: 280px;
+    }
+
+    .Djimages {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 10px;
+        padding: 0px;
+    }
+
+    .dj-photos {
+        margin: 10px;
+    }
+
+    .header_txt,
+    .header_txt_about,
+    .header_txt_mix {
+        width: auto;
+        margin-left: 20px;
+    }
+
+    .card #dj_img{
+        height: 45vh;
+    }
+
+    .slider {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .slider .slide img {
+        margin: 5px;
+    }
+
+    .content .all_cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .card {
+        width: 40vh;
+        margin-bottom: 15px;
+    }
+
+    .all_events {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .events_bdy {
+        margin-bottom: 35px;
+    }
+    
+    .fotter_nav ul li {
+        margin: 20px;
+    }
+
+}
